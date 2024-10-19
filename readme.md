@@ -7,6 +7,7 @@ Implement Gutenberg latest Interactivity API
     - Use Filter by sort
     - Use pagination
     - From the editor can be control posts number, display heading and enable pagination
+    - Two blocks communicate with each other
 
 [Edit Screen]
 
