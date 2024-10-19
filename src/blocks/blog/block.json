@@ -1,0 +1,61 @@
+{
+	"$schema": "https://schemas.wp.org/wp-block.json",
+	"apiVersion": 3,
+	"name": "interactivity-api/blog",
+	"version": "0.1.0",
+	"title": "interactivity-api Blog",
+	"category": "interactivity-api",
+	"icon": "smiley",
+	"description": "Blog Interactivity API",
+	"example": {},
+	"supports": {
+		"html": false,
+		"interactivity": true
+	},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "Latest Blogs"
+		},
+		"subtitle": {
+			"type": "string",
+			"default": "Lorem ipsum dolor sit amet consectetur. Rhoncus sed cras vel purus tempus sit adipiscing ut sed. Dignissim dignissim quis sapien."
+		},
+		"sortItem": {
+			"type": "string",
+			"default": "desc"
+		},
+		"sortByTag": {
+			"type": "string"
+		},
+		"showFilters": {
+			"type": "boolean",
+			"default": false
+		},
+		"itemsPerPage": {
+			"type": "number",
+			"default": 3
+		},
+		"toggleFilters": {
+			"type": "boolean",
+			"default": false
+		},
+		"firstPostFeatured": {
+			"type": "boolean",
+			"default": false
+		},
+		"toggleHeader": {
+			"type": "boolean",
+			"default": false
+		},
+		"loadPosts": {
+			"type": "string",
+			"default": "none"
+		}
+	},
+	"textdomain": "blog",
+	"editorScript": "file:./index.js",
+	"style": "file:./style-index.css",
+	"viewScriptModule": "file:./view.js",
+	"render": "file:./render.php"
+}
